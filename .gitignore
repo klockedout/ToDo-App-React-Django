@@ -7,6 +7,15 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# Django (Python backend)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+env/
+venv/
+*.env
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
